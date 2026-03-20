@@ -41,9 +41,7 @@
     "preventDefault inline": {
         "prefix": "pd",
         "body": [
-            "(e) => {",
-            "    e.preventDefault();",
-            "}"
+            "preventDefault()"
         ]
     },
     "Import tailwindcss vite": {

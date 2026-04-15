@@ -1,0 +1,9 @@
+{
+    "Blade Vite Directive": {
+        "prefix": "b:vite",
+        "body": [
+            "@vite(['${1:resources/css/app.css}', '${2:resources/js/app.js}'])"
+        ],
+        "description": "Laravel Blade @vite directive with editable css/js paths"
+    }
+}

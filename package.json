@@ -2,7 +2,7 @@
     "name": "vscode-setting",
     "displayName": "vscode-setting",
     "description": "vscode-setting",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "engines": {
         "vscode": "^1.105.0"
     },
@@ -30,7 +30,7 @@
             "editor.guides.highlightActiveIndentation": false,
             "breadcrumbs.enabled": true,
             "editor.renderLineHighlight": "none",
-            "scm.diffDecorations": "none",
+            "scm.diffDecorations": "gutter",
             "editor.fontSize": 15,
             "editor.lineHeight": 30,
             "editor.fontFamily": "JetBrains Mono, MonoLisa",
@@ -53,7 +53,8 @@
             "editor.minimap.enabled": false,
             "editor.minimap.maxColumn": 250,
             "editor.scrollbar.horizontal": "hidden",
-            "editor.scrollbar.vertical": "hidden",
+            "editor.scrollbar.vertical": "auto",
+            "editor.scrollbar.verticalScrollbarSize": 7,
             "editor.codeLens": false,
             "editor.inlayHints.enabled": "off",
             "editor.renderControlCharacters": false,
@@ -61,8 +62,8 @@
             "editor.hideCursorInOverviewRuler": true,
             "editor.selectionHighlight": false,
             "editor.semanticHighlighting.enabled": true,
-            "editor.occurrencesHighlight": "off",
-            "editor.matchBrackets": "never",
+            "editor.occurrencesHighlight": "singleFile",
+            "editor.matchBrackets": "always",
             "editor.lightbulb.enabled": "off",
             "editor.padding.top": 10,
             "editor.stickyScroll.enabled": false,
@@ -151,6 +152,9 @@
                 "storage/framework/views": true,
                 ".phpunit.result.cache": true
             },
+            "terminal.integrated.commandsToSkipShell": [
+                "workbench.view.scm"
+            ],
             "terminal.integrated.cursorWidth": 2,
             "terminal.integrated.fontSize": 15,
             "terminal.integrated.lineHeight": 1.2,
@@ -233,7 +237,7 @@
             "vim.easymotionMarkerForegroundColorTwoCharFirst": "#EB6689",
             "vim.easymotionMarkerForegroundColorTwoCharSecond": "#ffdd77",
             "vim.foldfix": true,
-            "vim.highlightedyank.color": "#a9dc7660",
+            "vim.highlightedyank.color": "#44475a",
             "vim.highlightedyank.enable": true,
             "vim.hlsearch": true,
             "vim.joinspaces": false,
@@ -423,6 +427,9 @@
             "[html]": {
                 "editor.defaultFormatter": "vscode.html-language-features"
             },
+            "[css]": {
+                "editor.defaultFormatter": "vscode.css-language-features"
+            },
             "[javascript]": {
                 "editor.defaultFormatter": "vscode.typescript-language-features"
             },
@@ -439,7 +446,7 @@
                 "editor.defaultFormatter": "octref.vetur"
             },
             "[php]": {
-                "editor.defaultFormatter": "laravel.vscode-laravel",
+                "editor.defaultFormatter": "laravel.vscode-laravel"
             },
             "[snippets]": {
                 "editor.defaultFormatter": "vscode.json-language-features"
@@ -452,6 +459,7 @@
             "vue.autoInsert.dotValue": true,
             "vue.editor.templateInterpolationDecorators": false,
             "vue.format.wrapAttributes": "force-expand-multiline",
+            "Laravel.blade.autoSpaceTags": false,
             "Laravel.bladeComponent.hover": false,
             "bladeFormatter.format.noMultipleEmptyLines": true,
             "bladeFormatter.misc.dontShowNewVersionMessage": true,
@@ -720,6 +728,10 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/typescriptreact.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/blade.json"
             },
             {
                 "language": "php",

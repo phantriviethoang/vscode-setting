@@ -2,7 +2,7 @@
     "name": "vscode-setting",
     "displayName": "vscode-setting",
     "description": "vscode-setting",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "engines": {
         "vscode": "^1.105.0"
     },
@@ -21,12 +21,7 @@
             "editor.glyphMargin": false,
             "editor.folding": true,
             "editor.renderWhitespace": "none",
-            "editor.rulers": [
-                {
-                    "column": 0,
-                    "color": "#161e28"
-                }
-            ],
+            "editor.rulers": [],
             "editor.guides.highlightActiveIndentation": false,
             "breadcrumbs.enabled": true,
             "editor.renderLineHighlight": "none",
@@ -63,7 +58,7 @@
             "editor.selectionHighlight": false,
             "editor.semanticHighlighting.enabled": true,
             "editor.occurrencesHighlight": "singleFile",
-            "editor.matchBrackets": "always",
+            "editor.matchBrackets": "never",
             "editor.lightbulb.enabled": "off",
             "editor.padding.top": 10,
             "editor.stickyScroll.enabled": false,
@@ -81,6 +76,8 @@
             "editor.quickSuggestionsDelay": 0,
             "editor.screenReaderAnnounceInlineSuggestion": false,
             "editor.accessibilitySupport": "off",
+            "editor.acceptSuggestionOnCommitCharacter": false,
+            "editor.acceptSuggestionOnEnter": "off",
             "editor.multiCursorModifier": "alt",
             "editor.gotoLocation.multipleReferences": "goto",
             "editor.gotoLocation.multipleDefinitions": "goto",
@@ -152,6 +149,7 @@
                 "storage/framework/views": true,
                 ".phpunit.result.cache": true
             },
+            "terminal.integrated.initialHint": false,
             "terminal.integrated.commandsToSkipShell": [
                 "workbench.view.scm"
             ],
@@ -224,7 +222,7 @@
             "quokka.fontSize": 16,
             "quokka.showOutputOnStart": false,
             "quokka.useOutputPanel": false,
-            "vim.cursorStylePerMode.insert": "block",
+            "vim.cursorStylePerMode.insert": "line",
             "vim.cursorStylePerMode.visual": "block",
             "vim.cursorStylePerMode.visualline": "block",
             "vim.cursorStylePerMode.visualblock": "block",
@@ -443,7 +441,7 @@
                 "editor.defaultFormatter": "vscode.typescript-language-features"
             },
             "[vue]": {
-                "editor.defaultFormatter": "octref.vetur"
+                "editor.defaultFormatter": "Wscats.vue"
             },
             "[php]": {
                 "editor.defaultFormatter": "laravel.vscode-laravel"
@@ -459,6 +457,9 @@
             "vue.autoInsert.dotValue": true,
             "vue.editor.templateInterpolationDecorators": false,
             "vue.format.wrapAttributes": "force-expand-multiline",
+            "vue3snippets.tabWidth": 4,
+            "vue3snippets.semi": false,
+            "vue3snippets.singleQuote": true,
             "Laravel.blade.autoSpaceTags": false,
             "Laravel.bladeComponent.hover": false,
             "bladeFormatter.format.noMultipleEmptyLines": true,

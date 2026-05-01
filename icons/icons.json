@@ -108,6 +108,9 @@
         "file_erb": {
             "iconPath": "./file/erbFile.svg"
         },
+        "file_ejs": {
+            "iconPath": "./file/ejs.svg"
+        },
         "file_scss": {
             "iconPath": "./file/scss.svg"
         },
@@ -242,6 +245,9 @@
         },
         "file_archive": {
             "iconPath": "./file/archive.svg"
+        },
+        "file_astro": {
+            "iconPath": "./file/astro.svg"
         },
         "file_toml": {
             "iconPath": "./file/toml.svg"
@@ -730,6 +736,7 @@
         "go": "file_go",
         "http": "file_http",
         "rest": "file_http",
+        "astro": "file_astro",
         "as": "file_actionscript",
         "app/php": "file_class",
         "Console/php": "file_class",
@@ -825,6 +832,7 @@
         "cljs": "file_clojure",
         "clj": "file_clojure",
         "edn": "file_clojure",
+        "ejs": "file_ejs",
         "proto": "file_protobuf",
         "hcl": "file_hcl",
         "rego": "file_rego",

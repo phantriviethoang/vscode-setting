@@ -2,7 +2,7 @@
     "name": "vscode-setting",
     "displayName": "vscode-setting",
     "description": "vscode-setting",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "engines": {
         "vscode": "^1.105.0"
     },
@@ -57,7 +57,7 @@
             "editor.hideCursorInOverviewRuler": true,
             "editor.selectionHighlight": false,
             "editor.semanticHighlighting.enabled": true,
-            "editor.occurrencesHighlight": "singleFile",
+            "editor.occurrencesHighlight": "off",
             "editor.matchBrackets": "never",
             "editor.lightbulb.enabled": "off",
             "editor.padding.top": 10,

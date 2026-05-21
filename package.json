@@ -2,7 +2,7 @@
     "name": "vscode-setting",
     "displayName": "vscode-setting",
     "description": "vscode-setting",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "engines": {
         "vscode": "^1.105.0"
     },

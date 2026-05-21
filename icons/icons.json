@@ -566,6 +566,7 @@
         ".editorconfig": "file_editorconfig",
         ".yarnrc": "file_yarn",
         "yarn.lock": "file_yarn",
+        "CLAUDE.md": "file_claude",
         "README.md": "file_readme",
         "readme.rst": "file_readme",
         "readme.txt": "file_readme",

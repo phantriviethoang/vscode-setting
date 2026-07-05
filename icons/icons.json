@@ -459,6 +459,9 @@
         "file_prisma": {
             "iconPath": "./file/prisma.svg"
         },
+        "file_db": {
+            "iconPath": "./file/sql.svg"
+        },
         "file_lock": {
             "iconPath": "./file/lock.svg"
         },

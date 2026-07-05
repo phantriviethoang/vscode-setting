@@ -456,8 +456,8 @@
         "file_jsx": {
             "iconPath": "./file/jsx.svg"
         },
-        "file_db": {
-            "iconPath": "./file/dbms.svg"
+        "file_prisma": {
+            "iconPath": "./file/prisma.svg"
         },
         "file_lock": {
             "iconPath": "./file/lock.svg"
@@ -849,6 +849,7 @@
         "test.tsx": "file_test_tsx",
         "test.jsx": "file_test_jsx",
         "test.js": "file_test_js",
+        "prisma": "file_prisma",
         "db": "file_db",
         "sqlite": "file_db",
         "sqlite3": "file_db",
